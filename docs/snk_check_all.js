@@ -2,7 +2,7 @@
  how to use
 
  1.下記をブックマークに追加
- javascript:(function(){var%20d=document;s=d.createElement('script');s.setAttribute('src','https://masup9.github.io/bookmarklet/sk_check_all_area.js');d.body.appendChild(s);})();
+ javascript:(function(){var%20d=document;s=d.createElement('script');s.setAttribute('src','https://digiper.github.io/bookmarklet/snk_check_all.js');d.body.appendChild(s);})();
 
  2.sanko.ac.jp以下でブックマークを実行
  対応校: BA, 医療, RS, こども, ブライダル, スイーツ、辻調理以下
