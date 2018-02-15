@@ -14,7 +14,7 @@
         dialog = d.createElement('dialog'),
         ul = d.createElement('ul'),
         btn = d.createElement('button'),
-        server = ["sanko.ac.jp", "sankodev.digiper.com", "sankodev-test-nenji.digiper.com/", "sankodev-renewal.digiper.com"];
+        server = ["sanko.ac.jp", "sankodev.digiper.com", "sankodev-test-nenji.digiper.com", "sankodev-renewal.digiper.com"];
 
     function appendListItem(e, i, v) {
         var li = d.createElement('li'),
