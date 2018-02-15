@@ -2,7 +2,7 @@
  how to use
 
  1.下記をブックマークに追加
- javascript:(function(){var%20d=document;s=d.createElement('script');s.setAttribute('src','https://digiper.github.io/bookmarklet/snk_check_all.js');d.body.appendChild(s);})();
+ javascript:(function(){var%20d=document;s=d.createElement('script');s.setAttribute('src','https://digiper.github.io/bookmarklet/snk_change_server.js');d.body.appendChild(s);})();
 
  2.sanko.ac.jp以下でブックマークを実行
  対応校: BA, 医療, RS, こども, ブライダル, スイーツ、辻調理以下
@@ -15,50 +15,12 @@
         ul = d.createElement('ul'),
         btn = d.createElement('button'),
         server = ["sanko.ac.jp", "sankodev.digiper.com", "sankodev-test-nenji.digiper.com/", "sankodev-renewal.digiper.com"];
-    // area = "",
-    // beautyArea = ["sapporo", "sendai", "omiya", "tokyo", "tachikawa", "chiba", "yokohama", "nagoya", "osaka", "hiroshima", "fukuoka"],
-    // medArea    = ["sapporo", "sendai", "omiya", "tokyo", "tachikawa", "chiba", "yokohama", "nagoya", "osaka", "kobe", "hiroshima", "fukuoka"],
-    // sportsArea = ["sapporo", "sendai", "tokyo", "chiba", "yokohama", "nagoya", "osaka", "hiroshima", "fukuoka"],
-    // childArea  = ["sapporo", "sendai", "omiya", "tokyo", "chiba", "yokohama", "nagoya", "osaka", "kobe", "fukuoka", "okinawa"],
-    // bridalArea = ["sapporo", "sendai", "tokyo", "nagoya", "osaka", "fukuoka"],
-    // sweetsArea = ["sapporo", "sendai", "omiya", "tokyo", "yokohama", "nagoya"],
-    // choriArea  = ["nagoya", "osaka"];
-
-    // var genre = l.pathname.replace(/^\/([^-]*)-([^\/]*)\/.*/, "$2");
-
-    // switch (genre) {
-    //     case "beauty":
-    //         area = beautyArea;
-    //         break;
-    //     case "med":
-    //         area = medArea;
-    //         break;
-    //     case "sports":
-    //         area = sportsArea;
-    //         break;
-    //     case "bridal":
-    //         area = bridalArea;
-    //         break;
-    //     case "child":
-    //         area = childArea;
-    //         break;
-    //     case "sweets":
-    //         area = sweetsArea;
-    //         break;
-    //     case "chori":
-    //         area = choriArea;
-    //         break;
-    //     default:
-    //         console.error('!!can not get area!!');
-    //         area = false;
-    //         break;
-    // }
 
     function appendListItem(e, i, v) {
         var li = d.createElement('li'),
             a = d.createElement('a');
 
-        var href = l.protocol + "//" + l.host.replace(/(.*)/, e) + "/" + l.pathname + l.search;
+        var href = l.protocol + "//" + l.host.replace(/(.*)/, e) + l.pathname + l.search;
         a.textContent = href;
         a.setAttribute('href', href);
         li.appendChild(a);
