@@ -15,7 +15,7 @@
         ul = d.createElement('ul'),
         btn = d.createElement('button'),
         area = "",
-        beautyArea = ["sapporo", "sendai", "omiya", "tokyo", "tachikawa", "chiba", "yokohama", "nagoya", "osaka", "hiroshima", "fukuoka"],
+        beautyArea = ["sapporo", "sendai", "omiya", "tokyo", "tachikawa", "chiba", "yokohama", "nagoya", "osaka", "hiroshima", "fukuoka", "okinawa"],
         medArea    = ["sapporo", "sendai", "omiya", "tokyo", "tachikawa", "chiba", "yokohama", "nagoya", "osaka", "kobe", "hiroshima", "fukuoka"],
         sportsArea = ["sapporo", "sendai", "tokyo", "chiba", "yokohama", "nagoya", "osaka", "hiroshima", "fukuoka"],
         childArea  = ["sapporo", "sendai", "omiya", "tokyo", "chiba", "yokohama", "nagoya", "osaka", "kobe", "fukuoka", "okinawa"],
